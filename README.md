@@ -2,7 +2,7 @@
 API wrapper for mytimestation.com
 
 ## Installation
-todo...
+`npm install mytimestation-api --save`
 
 ## Usage
 
@@ -18,7 +18,6 @@ const settings = {
 
 #### Punch in example
 ```js
-// TODO: publish npm package
 const Timestation = require('mytimestation-api')({
   email: 'your@email.com',
   password: 'password'
