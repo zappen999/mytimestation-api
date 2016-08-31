@@ -1,9 +1,9 @@
-const Timestation = require('../lib');
+const Timestation = require('../lib')({
+  email: 'YOUR_EMAIL',
+  password: 'YOUR_PASSWORD'
+});
 
-const email = 'YOUR_EMAIL';
-const pass = 'YOUR_PASS';
-
-Timestation.login(email, pass).then(() => {
+Timestation.login().then(() => {
   console.log('Successfully logged in');
 
   return Timestation.punchOut().then(() => {

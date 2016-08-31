@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "deepmerge": "^0.2.10",
     "request": "^2.74.0"
   }
 }
